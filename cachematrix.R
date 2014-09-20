@@ -29,7 +29,7 @@ makeCacheMatrix <- function(x = matrix()) {
         getInverse <- function() {
                 i
         }
-        ##The function returns a list of functions defined that can be called 
+        ##The makeCacheMatrix function returns a list of functions defined that can be called 
         list(geti = geti, get = get, set = set, setInverse = setInverse, getInverse = getInverse)
 
 }
